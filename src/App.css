@@ -1,0 +1,134 @@
+.page {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 4rem 1.5rem 3rem;
+}
+
+.hero {
+  text-align: center;
+  padding: 2rem 0 3rem;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  font-size: 0.75rem;
+  color: #6ee7b7;
+  margin: 0 0 1rem;
+}
+
+.hero h1 {
+  font-size: clamp(2.2rem, 6vw, 3.6rem);
+  font-weight: 800;
+}
+
+.accent {
+  background: linear-gradient(120deg, #34d399, #38bdf8);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.subtitle {
+  color: rgba(255, 255, 255, 0.65);
+  max-width: 42ch;
+  margin: 1rem auto 0;
+}
+
+.pulse {
+  margin-top: 2.5rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 999px;
+  padding: 0.5rem 0.75rem 0.5rem 0.5rem;
+}
+
+.pulse-button {
+  border: none;
+  cursor: pointer;
+  border-radius: 999px;
+  padding: 0.7rem 1.4rem;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #052e2b;
+  background: linear-gradient(120deg, #34d399, #38bdf8);
+  transition: transform 0.08s ease;
+}
+
+.pulse-button:active {
+  transform: scale(0.96);
+}
+
+.pulse-reading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-right: 0.75rem;
+}
+
+.pulse-reading strong {
+  font-size: 1.25rem;
+  color: #6ee7b7;
+}
+
+.pulse-reading small {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.projects {
+  margin-top: 2rem;
+}
+
+.projects h2 {
+  font-size: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.projects ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: 16px;
+  padding: 1.25rem;
+  text-align: left;
+}
+
+.card h3 {
+  font-size: 1.15rem;
+  margin: 0.6rem 0 0.4rem;
+}
+
+.card p {
+  color: rgba(255, 255, 255, 0.65);
+  margin: 0;
+  font-size: 0.95rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  color: #38bdf8;
+  background: rgba(56, 189, 248, 0.12);
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+}
+
+.footer {
+  margin-top: 3rem;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  font-size: 0.85rem;
+}
